@@ -2,7 +2,7 @@ The source data set represents data collected from the accelerometers from the S
 
 Data Set URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-## Source Files
+### Source Files
 
 The source files we use to create the tidy data set from the extrated data archive are:
 
@@ -20,17 +20,17 @@ The following files are available for the train and test data. Their description
 
 NOTE: We do not use the Inertial Signals for this tidy data set.
 
-## Variables
+### Variables
 
 Variables within the tidy data set are as examined as follows (taken from [1]).
 
 The activity labels consist of 
-*walking
-*walkingupstairs
-*walkingdownstairs
-*sitting
-*standing
-*laying
+* walking
+* walkingupstairs
+* walkingdownstairs
+* sitting
+* standing
+* laying
 
 The subjects who carried out the experiment are represented as a number from 1 to 30. For each measurement the mean, stddev, and mean frequency were calculated.
 
