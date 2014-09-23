@@ -22,7 +22,7 @@ NOTE: We do not use the Inertial Signals for this tidy data set.
 
 ### Variables
 
-Variables within the tidy data set are as examined as follows (taken from [1]).
+Variables within the tidy data set are as examined as follows.
 
 The activity labels consist of 
 * walking
@@ -34,3 +34,12 @@ The activity labels consist of
 
 The subjects who carried out the experiment are represented as a number from 1 to 30. For each measurement the mean, stddev, and mean frequency were calculated.
 
+### Transformations
+
+Training and test data set rows were appended and then a unified data set created from the source files.
+
+Measurements were extracted for mean, standard deviation for each measurement.
+
+variable/column names were labeled with descriptive cleaner names.
+
+Results were output as an indepenent tidy data set at ./TidyDataSet.txt
